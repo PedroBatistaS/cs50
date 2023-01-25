@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>About Me</title>
+    </head>
+    <body>
+        <div class="banner">
+            <h1 class="bannertext">
+                Pedro Batista Sosa
+            </h1>
+        </div>
+        <div>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="excercise.html">Excercise</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pictures.html">Pictures</a>
+                </li>
+              </ul>
+        </div>
+        <div>
+            <h1 class="whoiam">
+                Who Am I?
+            </h1>
+        </div>
+        <div class="grid-container2">
+            <div class="grid-item-1am">
+                <p class="pabm">
+                    My name is Pedro and I was born on May 29, 2002 in Las Palmas de Gran Canaria, Spain. I have always been passionate about technology and computers, so I decided to pursue a degree in Computer Science.
+                </p>
+                <p class="pabm">
+                    I started my studies at the University of Las Palmas de Gran Canaria in 2020 and have enjoyed every moment of it. I have learned a lot about programming, algorithms, data structures, and computer systems. I have also had the opportunity to work on several projects, such as a web application for a local NGO and a mobile game for a startup.
+                </p>
+                <p class="pabm">
+                    In my free time, I like to keep up with the latest trends in technology and learn new programming languages. I also enjoy traveling and exploring new places. I have been to several European countries and hope to visit many more in the future.
+                </p>
+                <p class="pabm">
+                    Overall, I am very happy with my decision to study Computer Science and I am looking forward to a rewarding career in the field. I believe that my passion for technology and my dedication to learning will help me succeed in my chosen field.
+                </p>
+            </div>
+            <img src="/images/pedrobatista.png" class="grid-item-2" alt="Pedro Batista">
+        </div>
+        <div class="divindex">
+            <div class="d-grid gap-2 d-md-block">
+                <script>
+                    function downloadFile(filename) {
+                        // Crear un enlace en el documento que apunte al archivo
+                        var link = document.createElement('a');
+                        link.href = filename;
+                        link.download = filename;
+
+                        // Agregar el enlace al documento y hacer clic en él para iniciar la descarga
+                        document.body.appendChild(link);
+                        link.click();
+
+                        // Eliminar el enlace del documento
+                        document.body.removeChild(link);
+                    }
+
+                    function gotolink(url) {
+                        window.location.href = url
+                    }
+                </script>
+                <button class="btn btn-primary" type="button" onclick="downloadFile('Pedro Batista Sosa.pdf')">
+                    Download my CV
+                </button>
+                <button class="btn btn-primary" type="button" onclick="gotolink('https://www.youtube.com/watch?v=mCdA4bJAGGk')">
+                    Click to recieve a joke XD
+                </button>
+            </div>
+        </div>
+    </body>
+</html>

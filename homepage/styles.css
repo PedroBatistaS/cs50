@@ -1,0 +1,113 @@
+.bodyindex {
+    /* Fondo de las páginas */
+    background-color:  #e7e7e7;
+    background-image: url('/images/pedrobatista.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: screen;
+
+}
+
+body {
+    /* Fondo de las páginas */
+    background-color:  #e7e7e7;
+}
+
+.banner {
+    background-color: #2f3333;
+    background-image: url('/images/Diseño sin título.png');
+    background-position: center;
+    background-blend-mode: screen;
+    height: 100px;
+}
+
+.bannertext {
+    font-size: 60px;
+    color: #17151a;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+}
+
+.contact {
+    color: #161818 ;
+    text-align: center;
+    font-family: Garamond;
+}
+
+.divindex {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 70px;
+    margin-right: 70px;
+    align: center;
+}
+
+.grid-container {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 500px 500px;
+    align: center;
+    gap: 30px;
+  }
+
+  .grid-container2 {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 500px 500px;
+    align: center;
+    gap: 30px;
+  }
+
+.grid-item-1 {
+    border: 3px solid #97a39e;
+    border-radius: 10px;
+    grid-column: 1;
+    grid-row: 1;
+    align: center;
+  }
+
+.grid-item-1am {
+    grid-column: 1;
+    grid-row: 1;
+    align: center;
+  }
+
+.grid-item-2 {
+    border: 3px solid #97a39e;
+    border-radius: 10px;
+    grid-column: 2;
+    grid-row: 1;
+    align: center;
+  }
+
+.grid-item-3 {
+    border: 3px solid #97a39e;
+    border-radius: 10px;
+    grid-column: 1;
+    grid-row: 2;
+    align: center;
+  }
+
+.grid-item-4 {
+    border: 3px solid #97a39e;
+    border-radius: 10px;
+    grid-column: 2;
+    grid-row: 2;
+    align: center;
+  }
+.whoiam {
+    margin-right: 30px;
+}
+
+.pabm {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-left: 70px;
+  margin-right: 70px;
+  text-align: justify;
+}

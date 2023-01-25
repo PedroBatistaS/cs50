@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: Becuase there is a lot of difference between the time of execution of the random50000.txt (7.852) (O(n^2)) and the sorted one (0.604) (Omega(n))
+
+sort2 uses: Merge Sort
+
+How do you know?: Is the fastest one in O(n log n) and the data shows. In all the cases, execution time is below 1 and the difference of the sorted and random is very close.
+
+sort3 uses: Selection Sort
+
+How do you know?: The slowest one and because in the best cases last the same that in all cases so the times, are very close each one (as the Merge Sort but slower).
